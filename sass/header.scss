@@ -1,16 +1,16 @@
-.header {
+.header--full {
   background-image: linear-gradient(
     to right,
     $color-primary-dark,
     $color-primary-light
   );
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   color: #fff;
 }
 .logo {
   font-size: 2rem;
-  margin-left: 3rem;
+  // margin-left: 3rem;
   text-transform: uppercase;
   font-weight: 400;
   cursor: pointer;
@@ -22,7 +22,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.4rem;
+  padding: 1.4rem 0;
 
   &__list {
     display: flex;
@@ -38,9 +38,41 @@
 .btn {
   border: none;
   border-radius: 0;
-  background-color: $color-secondary-light;
+  background-color: $color-secondary;
   padding: 1rem 2rem;
-  color:rgb(41, 40, 40);
+  color: $color-tertiary;
   font-family: $font-display;
+  cursor: pointer;
+  transition: all 0.2s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
 }
- 
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  &__text {
+    width: 50%;
+    margin: 12rem 0;
+    &--secondary {
+      font-size: 1.6rem;
+      font-weight: 400;
+      color: $color-secondary;
+    }
+    &--primary {
+      font-size: 4rem;
+      margin: 3.5rem 0;
+    }
+    &--tertiary {
+      font-size: 1.3rem;
+      margin-bottom: 3.5rem;
+    }
+  }
+}
+.header--img {
+  width: 50rem;
+  height: 50rem;
+  margin-top: 10rem;
+}
