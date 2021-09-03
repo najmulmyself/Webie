@@ -76,15 +76,36 @@ a:focus {
     .header__text--secondary {
       font-size: 1.6rem;
       font-weight: 400;
-      color: #3f3d56; }
+      color: #3f3d56;
+      text-transform: uppercase; }
     .header__text--primary {
       font-size: 4rem;
       margin: 3.5rem 0; }
     .header__text--tertiary {
-      font-size: 1.3rem;
       margin-bottom: 3.5rem; }
 
 .header--img {
   width: 50rem;
   height: 50rem;
   margin-top: 10rem; }
+
+.u--para {
+  font-size: 1.3rem; }
+
+.u--h1 {
+  font-size: 3.5rem;
+  color: #6c63ff; }
+
+.u--border {
+  border-bottom: 6px solid #CACACA;
+  width: 10%;
+  display: flex;
+  margin: 1rem auto; }
+
+.special--sec {
+  background-color: #fff;
+  min-height: 60vh;
+  margin: 5rem 0; }
+
+.sec--title {
+  text-align: center; }

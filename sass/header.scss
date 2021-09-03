@@ -60,13 +60,13 @@
       font-size: 1.6rem;
       font-weight: 400;
       color: $color-secondary;
+      text-transform: uppercase;
     }
     &--primary {
       font-size: 4rem;
       margin: 3.5rem 0;
     }
     &--tertiary {
-      font-size: 1.3rem;
       margin-bottom: 3.5rem;
     }
   }
