@@ -172,6 +172,7 @@ a:focus {
   display: flex;
   justify-content: space-evenly; }
   .agency__counter--card {
+    min-height: auto;
     width: 17rem;
     background-color: #fff;
     box-shadow: 0 0 4rem rgba(202, 202, 202, 0.5);

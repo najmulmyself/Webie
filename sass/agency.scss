@@ -26,6 +26,7 @@
     justify-content: space-evenly;
 
     &--card {
+      min-height: auto;
       width: 17rem;
       background-color: #fff;
       box-shadow: 0 0 4rem rgba($color-tertiary, 0.5);
