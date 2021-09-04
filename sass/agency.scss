@@ -1,0 +1,22 @@
+.agency--container {
+  display: flex;
+  //   justify-content: space-between;
+  align-items: center;
+}
+.agency--img {
+  height: 50rem;
+  width: 50rem;
+  margin-right: 15rem;
+}
+.agency {
+  &__para {
+    text-align: left;
+  }
+  &__title {
+    text-align: center;
+  }
+
+  & > *:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
