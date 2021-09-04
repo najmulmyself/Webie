@@ -151,7 +151,8 @@ a:focus {
 
 .agency--container {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  margin: 8rem 0; }
 
 .agency--img {
   height: 50rem;
@@ -166,3 +167,27 @@ a:focus {
 
 .agency > *:not(:last-child) {
   margin-bottom: 3rem; }
+
+.agency__counter {
+  display: flex;
+  justify-content: space-evenly; }
+  .agency__counter--card {
+    width: 17rem;
+    background-color: #fff;
+    box-shadow: 0 0 4rem rgba(202, 202, 202, 0.5);
+    padding: 2rem;
+    border-radius: 0.7rem;
+    text-align: center;
+    margin-right: 3rem;
+    transition: all 0.2s;
+    cursor: pointer; }
+    .agency__counter--card:hover {
+      transform: translateY(-3px);
+      border-bottom: 3px solid #6c63ff; }
+
+.counter--count {
+  color: #6c63ff;
+  font-size: 1.8rem; }
+
+.counter--text {
+  font-size: 1.2rem; }

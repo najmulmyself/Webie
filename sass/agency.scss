@@ -2,6 +2,7 @@
   display: flex;
   //   justify-content: space-between;
   align-items: center;
+  margin: 8rem 0;
 }
 .agency--img {
   height: 50rem;
@@ -19,4 +20,33 @@
   & > *:not(:last-child) {
     margin-bottom: 3rem;
   }
+
+  &__counter {
+    display: flex;
+    justify-content: space-evenly;
+
+    &--card {
+      width: 17rem;
+      background-color: #fff;
+      box-shadow: 0 0 4rem rgba($color-tertiary, 0.5);
+      padding: 2rem;
+      border-radius: 0.7rem;
+      text-align: center;
+      margin-right: 3rem;
+      transition: all 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateY(-3px);
+        border-bottom: 3px solid $color-primary-dark;
+      }
+    }
+  }
+}
+.counter--count {
+  color: $color-primary-dark;
+  font-size: 1.8rem;
+}
+.counter--text {
+  font-size: 1.2rem;
 }
