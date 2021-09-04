@@ -32,6 +32,7 @@
       padding: 2rem;
       border-radius: 0.7rem;
       text-align: center;
+      width: auto; // if we dont specify width margin-right won't work properly | it conflicts with container
       margin-right: 3rem;
       transition: all 0.2s;
       cursor: pointer;

@@ -178,6 +178,7 @@ a:focus {
     padding: 2rem;
     border-radius: 0.7rem;
     text-align: center;
+    width: auto;
     margin-right: 3rem;
     transition: all 0.2s;
     cursor: pointer; }
