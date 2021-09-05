@@ -38,7 +38,7 @@
 .contact-link {
   display: flex;
   align-items: center;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 .contact--text {
   p {
@@ -46,13 +46,16 @@
     padding-left: 2rem;
   }
 }
+
 .contact-icon {
-  font-size: 2.3rem;
+  font-size: 1.3rem;
   background-color: #fff;
   width: 5rem;
-  height: 5rem;
+  // height: 2rem;
   border-radius: 50%;
-  display: block;
+  margin: 5px 2px;
+  padding: 2rem 0;
+  // display: inline-block;
   text-align: center;
   color: $color-primary-dark;
 }
