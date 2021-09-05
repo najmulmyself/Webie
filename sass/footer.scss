@@ -15,3 +15,24 @@
 .company-logo {
   color: #fff;
 }
+.company--details {
+  p {
+    font-size: 1.3rem;
+  }
+}
+.social-link {
+  font-size: 2.3rem;
+  margin-top: 2rem;
+
+  a {
+    margin: 0 1.2rem;
+  }
+  
+}
+.icon-social{
+    color: #fff;
+
+    &:hover{
+        color: $color-tertiary;
+    }
+}

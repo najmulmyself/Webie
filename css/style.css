@@ -114,6 +114,10 @@ input {
   font-size: 2rem;
   color: #6c63ff; }
 
+.u--h3 {
+  font-size: 1.7rem;
+  text-transform: uppercase; }
+
 .u--border {
   border-bottom: 6px solid #CACACA;
   width: 10%;
@@ -342,3 +346,17 @@ input {
 
 .company-logo {
   color: #fff; }
+
+.company--details p {
+  font-size: 1.3rem; }
+
+.social-link {
+  font-size: 2.3rem;
+  margin-top: 2rem; }
+  .social-link a {
+    margin: 0 1.2rem; }
+
+.icon-social {
+  color: #fff; }
+  .icon-social:hover {
+    color: #CACACA; }
