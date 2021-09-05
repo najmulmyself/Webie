@@ -36,6 +36,22 @@ input {
     outline: none;
     border-bottom: 3px solid #112e36; }
 
+.copyright {
+  margin: 0 auto;
+  color: #fff;
+  padding: 2rem;
+  background-color: #3f3d56; }
+  .copyright-text {
+    text-align: center;
+    font-size: 1.4rem; }
+
+.heart-icon {
+  color: #d34848; }
+
+.copy-link {
+  color: #fff;
+  border-bottom: 1px solid #fff; }
+
 .header--full {
   background-image: linear-gradient(to right, #6c63ff, #4e87cc);
   width: 100%;

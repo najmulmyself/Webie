@@ -39,3 +39,21 @@ input {
     border-bottom: 3px solid rgb(17, 46, 54);
   }
 }
+.copyright {
+  margin: 0 auto;
+  color: #fff;
+  padding: 2rem;
+  background-color: $color-secondary;
+
+  &-text {
+    text-align: center;
+    font-size: 1.4rem;
+  }
+}
+.heart-icon {
+  color: rgb(211, 72, 72);
+}
+.copy-link {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
