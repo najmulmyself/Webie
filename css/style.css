@@ -108,6 +108,9 @@ a:focus {
   display: flex;
   margin: 1rem auto; }
 
+.card-title {
+  color: #6c63ff; }
+
 .special--sec {
   background-color: #fff;
   min-height: 60vh;
@@ -193,3 +196,20 @@ a:focus {
 
 .counter--text {
   font-size: 1.2rem; }
+
+.feature {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10rem 0; }
+  .feature--title {
+    text-align: center; }
+  .feature__card--img {
+    width: 9rem;
+    height: 9rem; }
+  .feature__1--card, .feature__3--card {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding: 0 2rem; }
+  .feature__1--text p, .feature__3--text p {
+    text-align: left !important; }

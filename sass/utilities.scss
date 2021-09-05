@@ -16,3 +16,7 @@
   display: flex; // without flex it won't work
   margin: 1rem auto;
 }
+
+.card-title {
+  color: $color-primary-dark;
+}

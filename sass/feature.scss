@@ -1,3 +1,30 @@
 .feature {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10rem 0;
+
+  &--title {
+    text-align: center;
+  }
+
+  &__card--img {
+    width: 9rem;
+    height: 9rem;
+  }
+
+  &__1--card,
+  &__3--card {
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+    padding: 0 2rem;
+  }
+
+  &__1--text,
+  &__3--text {
+    p {
+      text-align: left !important;
+    }
+  }
 }
