@@ -47,6 +47,8 @@
 
   &:hover {
     transform: scale(1.05);
+    background-color: transparent;
+    border: 1px solid #fff;
   }
 }
 
