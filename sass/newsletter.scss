@@ -1,0 +1,44 @@
+.newsletter {
+  background-image: linear-gradient(
+    to right,
+    $color-primary-dark,
+    $color-primary-light
+  );
+
+  padding: 6rem;
+
+  &__text {
+    display: grid;
+    grid-template-columns: 1fr 50rem;
+    align-items: center;
+    // padding: 6rem;
+
+    &--h1 {
+      color: #fff;
+      font-size: 3rem;
+    }
+  }
+
+  &__email {
+    display: flex;
+    position: relative;
+  }
+}
+.email--input {
+  border: none;
+  width: 90%;
+  padding: 1.8rem;
+  transition: all 0.2s;
+  //   position: relative;
+
+  &:focus {
+    outline: none;
+    border-bottom: 3px solid rgb(17, 46, 54);
+  }
+}
+.email--btn {
+  position: absolute;
+  right: 6rem;
+  top: 0.6rem;
+  overflow: hidden;
+}

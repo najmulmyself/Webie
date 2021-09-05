@@ -224,3 +224,32 @@ a:focus {
     text-align: left; }
     .feature__1--card p, .feature__3--card p {
       text-align: left !important; }
+
+.newsletter {
+  background-image: linear-gradient(to right, #6c63ff, #4e87cc);
+  padding: 6rem; }
+  .newsletter__text {
+    display: grid;
+    grid-template-columns: 1fr 50rem;
+    align-items: center; }
+    .newsletter__text--h1 {
+      color: #fff;
+      font-size: 3rem; }
+  .newsletter__email {
+    display: flex;
+    position: relative; }
+
+.email--input {
+  border: none;
+  width: 90%;
+  padding: 1.8rem;
+  transition: all 0.2s; }
+  .email--input:focus {
+    outline: none;
+    border-bottom: 3px solid #112e36; }
+
+.email--btn {
+  position: absolute;
+  right: 6rem;
+  top: 0.6rem;
+  overflow: hidden; }
