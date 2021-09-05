@@ -394,4 +394,7 @@ input {
   margin: 5px 2px;
   padding: 2rem 0;
   text-align: center;
-  color: #6c63ff; }
+  color: #6c63ff;
+  transition: all 0.2s; }
+  .contact-icon:hover {
+    transform: scale(1.05); }
