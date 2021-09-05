@@ -26,3 +26,16 @@ a:focus {
   padding: 0 9rem;
   margin: 0 auto;
 }
+
+input {
+  border: none;
+  width: 100%;
+  padding: 1.8rem;
+  transition: all 0.2s;
+  box-shadow: 0 0 4rem rgba($color-tertiary, 0.5);
+
+  &:focus {
+    outline: none;
+    border-bottom: 3px solid rgb(17, 46, 54);
+  }
+}

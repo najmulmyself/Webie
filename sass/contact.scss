@@ -1,0 +1,52 @@
+.get-touch {
+  display: flex;
+  margin: 10rem 0;
+
+  img {
+      cursor: pointer;
+      transition: all 0.5s;
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+}
+.contact {
+  box-shadow: 0 0 4rem rgba($color-tertiary, 0.5);
+  padding: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  transition: all 0.5s;
+
+  &:hover {
+    background-color: $color-primary-dark;
+    h1 {
+      color: #fff;
+    }
+    input {
+      box-shadow: none !important;
+    }
+  }
+
+  &__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 2rem;
+
+    &--full-name {
+      grid-column: 1 / -1;
+    }
+    &--email {
+      grid-column: 1 / -1;
+    }
+    &--phone {
+      grid-column: 1 / -1;
+    }
+    &--message {
+      grid-column: 1 / -1;
+    }
+    &--btn {
+      grid-column: 1 / -1;
+    }
+  }
+}

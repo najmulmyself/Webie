@@ -26,6 +26,16 @@ a:focus {
   padding: 0 9rem;
   margin: 0 auto; }
 
+input {
+  border: none;
+  width: 100%;
+  padding: 1.8rem;
+  transition: all 0.2s;
+  box-shadow: 0 0 4rem rgba(202, 202, 202, 0.5); }
+  input:focus {
+    outline: none;
+    border-bottom: 3px solid #112e36; }
+
 .header--full {
   background-image: linear-gradient(to right, #6c63ff, #4e87cc);
   width: 100%;
@@ -209,7 +219,7 @@ a:focus {
   .feature__2 img {
     width: auto;
     height: 30rem;
-    transition: all 0.2s;
+    transition: all 0.5s;
     cursor: pointer; }
     .feature__2 img:hover {
       transform: translateY(-5px); }
@@ -245,6 +255,7 @@ a:focus {
   border: none;
   width: 90%;
   padding: 1.8rem;
+  box-shadow: none !important;
   transition: all 0.2s; }
   .email--input:focus {
     outline: none;
@@ -281,3 +292,40 @@ a:focus {
     color: #fff; }
     .plan:hover h1 {
       color: #fff; }
+
+.get-touch {
+  display: flex;
+  margin: 10rem 0; }
+  .get-touch img {
+    cursor: pointer;
+    transition: all 0.5s; }
+    .get-touch img:hover {
+      transform: translateY(-5px); }
+
+.contact {
+  box-shadow: 0 0 4rem rgba(202, 202, 202, 0.5);
+  padding: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  transition: all 0.5s; }
+  .contact:hover {
+    background-color: #6c63ff; }
+    .contact:hover h1 {
+      color: #fff; }
+    .contact:hover input {
+      box-shadow: none !important; }
+  .contact__box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 2rem; }
+    .contact__box--full-name {
+      grid-column: 1 / -1; }
+    .contact__box--email {
+      grid-column: 1 / -1; }
+    .contact__box--phone {
+      grid-column: 1 / -1; }
+    .contact__box--message {
+      grid-column: 1 / -1; }
+    .contact__box--btn {
+      grid-column: 1 / -1; }
