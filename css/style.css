@@ -329,3 +329,16 @@ input {
       grid-column: 1 / -1; }
     .contact__box--btn {
       grid-column: 1 / -1; }
+
+.footer-section {
+  background-image: linear-gradient(to right, #6c63ff, #4e87cc);
+  padding: 6rem 0; }
+
+.footer {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  color: #fff; }
+
+.company-logo {
+  color: #fff; }

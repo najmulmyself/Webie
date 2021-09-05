@@ -1,0 +1,17 @@
+.footer-section {
+  background-image: linear-gradient(
+    to right,
+    $color-primary-dark,
+    $color-primary-light
+  );
+  padding: 6rem 0;
+}
+.footer {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
+  color: #fff;
+}
+.company-logo {
+  color: #fff;
+}
