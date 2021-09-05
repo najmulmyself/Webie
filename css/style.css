@@ -104,7 +104,7 @@ input {
     .header__text--secondary {
       font-size: 1.6rem;
       font-weight: 400;
-      color: #3f3d56;
+      color: #fff;
       text-transform: uppercase; }
     .header__text--primary {
       font-size: 4rem;
