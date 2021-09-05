@@ -1,7 +1,27 @@
 .feature {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
   padding: 10rem 0;
+
+  &__1,
+  &__2,
+  &__3 {
+    align-self: center;
+  }
+
+  &__2 {
+    img {
+      width: auto;
+      height: 30rem;
+      transition: all 0.2s;
+      cursor: pointer;
+
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  }
 
   &--title {
     text-align: center;
@@ -10,6 +30,8 @@
   &__card--img {
     width: 9rem;
     height: 9rem;
+    object-fit: cover;
+    padding-right: 3rem;
   }
 
   &__1--card,
@@ -18,11 +40,6 @@
     align-items: center;
     text-align: left;
 
-    padding: 0 2rem;
-  }
-
-  &__1--text,
-  &__3--text {
     p {
       text-align: left !important;
     }

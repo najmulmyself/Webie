@@ -200,16 +200,27 @@ a:focus {
 .feature {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3rem;
   padding: 10rem 0; }
+  .feature__1, .feature__2, .feature__3 {
+    align-self: center; }
+  .feature__2 img {
+    width: auto;
+    height: 30rem;
+    transition: all 0.2s;
+    cursor: pointer; }
+    .feature__2 img:hover {
+      transform: translateY(-5px); }
   .feature--title {
     text-align: center; }
   .feature__card--img {
     width: 9rem;
-    height: 9rem; }
+    height: 9rem;
+    object-fit: cover;
+    padding-right: 3rem; }
   .feature__1--card, .feature__3--card {
     display: flex;
     align-items: center;
-    text-align: left;
-    padding: 0 2rem; }
-  .feature__1--text p, .feature__3--text p {
-    text-align: left !important; }
+    text-align: left; }
+    .feature__1--card p, .feature__3--card p {
+      text-align: left !important; }
