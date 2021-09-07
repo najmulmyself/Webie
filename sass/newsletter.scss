@@ -5,7 +5,7 @@
     $color-primary-light
   );
 
-  padding: 6rem;
+  padding: 6rem 0;
 
   &__text {
     display: grid;
@@ -16,6 +16,10 @@
     &--h1 {
       color: #fff;
       font-size: 3rem;
+
+      @media only screen and (max-width: 800px) {
+        font-size: 2rem;
+      }
     }
   }
 

@@ -24,8 +24,17 @@
   font-size: 2.3rem;
   margin-top: 2rem;
 
+  @media only screen and (max-width: 800px) {
+    display: block;
+    font-size: 1.7rem;
+  }
+
   a {
     margin: 0 1.2rem;
+
+    @media only screen and (max-width: 800px){
+      margin: 0 0.7rem;
+    }
   }
 }
 .icon-social {
