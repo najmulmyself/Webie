@@ -63,6 +63,9 @@ input {
   width: 100%;
   min-height: 100vh;
   color: #fff; }
+  @media only screen and (max-width: 1100px) {
+    .header--full {
+      min-height: auto; } }
 
 .logo {
   font-size: 2rem;
@@ -170,6 +173,9 @@ input {
   background-color: #fff;
   min-height: 60vh;
   margin: 5rem 0; }
+  @media only screen and (max-width: 1100px) {
+    .special--sec {
+      min-height: auto; } }
 
 .sec--title {
   text-align: center; }
