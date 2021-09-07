@@ -11,6 +11,9 @@ html {
   @media only screen and (max-width: 1100px) {
     html {
       font-size: 45%; } }
+  @media only screen and (max-width: 700px) {
+    html {
+      font-size: 35%; } }
 
 body {
   font-family: "Poppins", sans-serif;
@@ -283,20 +286,18 @@ input {
   @media only screen and (max-width: 700px) {
     .feature {
       display: block;
-      padding: 0 10rem; } }
+      text-align: center; } }
   .feature__1, .feature__2, .feature__3 {
     align-self: center; }
     @media only screen and (max-width: 700px) {
       .feature__1, .feature__2, .feature__3 {
-        margin: 5rem 0; } }
+        margin: 5rem 0;
+        text-align: center; } }
   .feature__2 img {
     width: auto;
     height: 30rem;
     transition: all 0.5s;
     cursor: pointer; }
-    @media only screen and (max-width: 700px) {
-      .feature__2 img {
-        display: block; } }
     .feature__2 img:hover {
       transform: translateY(-5px); }
   .feature--title {
@@ -310,6 +311,10 @@ input {
     display: flex;
     align-items: center;
     text-align: left; }
+    @media only screen and (max-width: 700px) {
+      .feature__1--card, .feature__3--card {
+        display: block;
+        margin: 0 auto; } }
     .feature__1--card p, .feature__3--card p {
       text-align: left !important; }
 
@@ -381,6 +386,10 @@ input {
 .get-touch {
   display: flex;
   margin: 10rem 0; }
+  @media only screen and (max-width: 640px) {
+    .get-touch {
+      display: block;
+      text-align: center; } }
   .get-touch img {
     cursor: pointer;
     transition: all 0.5s;
@@ -388,6 +397,10 @@ input {
     @media only screen and (max-width: 1100px) {
       .get-touch img {
         width: 50%; } }
+    @media only screen and (max-width: 640px) {
+      .get-touch img {
+        width: 50%;
+        flex-wrap: wrap; } }
     .get-touch img:hover {
       transform: translateY(-5px); }
 
@@ -400,6 +413,9 @@ input {
   @media only screen and (max-width: 1100px) {
     .contact {
       padding: 4rem; } }
+  @media only screen and (max-width: 640px) {
+    .contact {
+      display: block; } }
   .contact:hover {
     background-color: #6c63ff; }
     .contact:hover h1 {
