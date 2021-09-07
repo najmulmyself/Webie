@@ -75,6 +75,10 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 1.4rem 0; }
+  @media only screen and (max-width: 700px) {
+    .nav {
+      padding: 1rem 0;
+      margin: 0 0.5rem; } }
   .nav__list {
     display: flex;
     margin-right: 3rem; }
@@ -104,6 +108,10 @@ input {
   .header__text {
     width: 50%;
     margin: 12rem 0; }
+    @media only screen and (max-width: 700px) {
+      .header__text {
+        width: 45%;
+        margin: 4rem 0; } }
     .header__text--secondary {
       font-size: 1.6rem;
       font-weight: 400;
@@ -112,6 +120,9 @@ input {
     .header__text--primary {
       font-size: 4rem;
       margin: 3.5rem 0; }
+      @media only screen and (max-width: 700px) {
+        .header__text--primary {
+          font-size: 2rem; } }
     .header__text--tertiary {
       margin-bottom: 3.5rem;
       text-align: left !important; }
@@ -120,6 +131,10 @@ input {
   width: 50rem;
   height: 50rem;
   margin-top: 10rem; }
+  @media only screen and (max-width: 700px) {
+    .header--img {
+      width: 30rem;
+      margin-top: 1rem; } }
 
 .u--para {
   font-size: 1.3rem;
@@ -201,6 +216,10 @@ input {
   display: flex;
   align-items: center;
   margin: 8rem 0; }
+  @media only screen and (max-width: 700px) {
+    .agency--container {
+      display: flex;
+      flex-wrap: wrap; } }
 
 .agency--img {
   height: 50rem;
@@ -216,6 +235,11 @@ input {
       height: 40rem;
       width: 40rem;
       margin-right: 6rem; } }
+  @media only screen and (max-width: 700px) {
+    .agency--img {
+      height: 20rem;
+      width: 20rem;
+      margin: auto; } }
 
 .agency {
   margin: 0 auto; }
@@ -256,13 +280,23 @@ input {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 3rem;
   padding: 10rem 0; }
+  @media only screen and (max-width: 700px) {
+    .feature {
+      display: block;
+      padding: 0 10rem; } }
   .feature__1, .feature__2, .feature__3 {
     align-self: center; }
+    @media only screen and (max-width: 700px) {
+      .feature__1, .feature__2, .feature__3 {
+        margin: 5rem 0; } }
   .feature__2 img {
     width: auto;
     height: 30rem;
     transition: all 0.5s;
     cursor: pointer; }
+    @media only screen and (max-width: 700px) {
+      .feature__2 img {
+        display: block; } }
     .feature__2 img:hover {
       transform: translateY(-5px); }
   .feature--title {
@@ -317,6 +351,9 @@ input {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
   margin: 5rem 0; }
+  @media only screen and (max-width: 700px) {
+    .plan__section {
+      display: block; } }
 
 .plan {
   text-align: center;
@@ -324,6 +361,9 @@ input {
   box-shadow: 0 0 4rem rgba(202, 202, 202, 0.5);
   transition: all 0.5s;
   cursor: pointer; }
+  @media only screen and (max-width: 700px) {
+    .plan {
+      margin: 3rem; } }
   .plan img {
     width: 20rem;
     height: 20rem; }
