@@ -12,6 +12,9 @@
     grid-template-columns: 1fr 50rem;
     align-items: center;
     // padding: 6rem;
+    @media only screen and (max-width: 500px) {
+      display: block;
+    }
 
     &--h1 {
       color: #fff;

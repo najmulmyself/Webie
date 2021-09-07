@@ -78,10 +78,9 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 1.4rem 0; }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 500px) {
     .nav {
-      padding: 1rem 0;
-      margin: 0 0.5rem; } }
+      display: none; } }
   .nav__list {
     display: flex;
     margin-right: 3rem; }
@@ -325,6 +324,9 @@ input {
     display: grid;
     grid-template-columns: 1fr 50rem;
     align-items: center; }
+    @media only screen and (max-width: 500px) {
+      .newsletter__text {
+        display: block; } }
     .newsletter__text--h1 {
       color: #fff;
       font-size: 3rem; }
@@ -447,6 +449,10 @@ input {
   grid-gap: 2rem;
   grid-template-columns: repeat(5, 1fr);
   color: #fff; }
+  @media only screen and (max-width: 500px) {
+    .footer {
+      display: grid;
+      grid-template-columns: auto auto; } }
 
 .company-logo {
   color: #fff; }
